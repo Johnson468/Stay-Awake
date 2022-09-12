@@ -5,3 +5,4 @@ Default timer is 3 minutes, but can be 1 or more.
 
 # Dependencies
 This software uses PyAutoGui https://github.com/asweigart/pyautogui as the driver behind the movement. 
+> ``` pip install -r requirements.txt  ```
