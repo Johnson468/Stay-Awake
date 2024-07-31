@@ -25,7 +25,6 @@ def determineAspectRatio():
     for monitor in monitors:
         if (monitor.is_primary):
             primaryMonitor = monitor
-    print(str(primaryMonitor))
     return primaryMonitor.width/primaryMonitor.height
 
 def move():
@@ -45,4 +44,3 @@ def move():
 
 aspectRatio = determineAspectRatio()
 move()
-print(aspectRatio)
