@@ -1,2 +1,2 @@
 pyautogui
-
+screeninfo
